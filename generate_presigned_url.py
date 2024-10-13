@@ -5,13 +5,13 @@ import os
 ACCESS_KEY = os.getenv('AWS_ACCESS_KEY_ID')
 SECRET_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 
-BUCKET_NAME = 'eventide'  # Your Wasabi bucket name
-OBJECT_KEY = 'eventide.zip'  # Update this if your file is in a subfolder
+BUCKET_NAME = 'eventide'
+OBJECT_KEY = 'Eventide.rar'
 
 def create_presigned_url(bucket_name, object_key, expiration=43200):
     """Generate a pre-signed URL for an S3 object."""
     s3_client = boto3.client('s3',
-                             endpoint_url='https://s3.us-west-1.wasabisys.com',  # Change the region if needed
+                             endpoint_url='https://s3.us-central-1.wasabisys.com',
                              aws_access_key_id=ACCESS_KEY,
                              aws_secret_access_key=SECRET_KEY,
                              config=Config(signature_version='s3v4'))
