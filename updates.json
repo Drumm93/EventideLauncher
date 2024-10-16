@@ -1,0 +1,11 @@
+{
+    "latestVersion": "1.0.1",
+    "updates": [
+        {
+            "version": "1.0.1",
+            "url": "https://raw.githubusercontent.com/Drumm93/EventideLauncher/main/updates/1.0.1/1.0.1.zip",
+            "releaseDate": "2023-10-16",
+            "description": "Test for file updates."
+        }
+    ]
+}
