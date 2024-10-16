@@ -6,7 +6,7 @@ ACCESS_KEY = os.getenv('AWS_ACCESS_KEY_ID')
 SECRET_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 
 BUCKET_NAME = 'eventide'
-OBJECT_KEY = 'Eventide.rar'
+OBJECT_KEY = 'Eventide.zip'
 
 def create_presigned_url(bucket_name, object_key, expiration=43200):
     """Generate a pre-signed URL for an S3 object."""
