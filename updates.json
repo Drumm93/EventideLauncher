@@ -1,11 +1,23 @@
 {
-    "latestVersion": "1.0.1",
+    "latestVersion": "1.0.3",
     "updates": [
         {
             "version": "1.0.1",
             "url": "https://raw.githubusercontent.com/Drumm93/EventideLauncher/main/updates/1.0.1/1.0.1.zip",
-            "releaseDate": "2023-10-16",
-            "description": "Test for file updates."
+            "releaseDate": "2024-10-16",
+            "description": "Test 1."
+        },
+        {
+            "version": "1.0.2",
+            "url": "https://raw.githubusercontent.com/Drumm93/EventideLauncher/main/updates/1.0.2/1.0.2.zip",
+            "releaseDate": "2024-10-16",
+            "description": "Test 2."
+        },
+        {
+            "version": "1.0.3",
+            "url": "https://raw.githubusercontent.com/Drumm93/EventideLauncher/main/updates/1.0.3/1.0.3.zip",
+            "releaseDate": "2024-10-16",
+            "description": "Test 3."
         }
     ]
 }
