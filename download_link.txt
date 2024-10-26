@@ -1,1 +1,1 @@
-https://s3.us-central-1.wasabisys.com/eventide/Eventide.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=JA9GITV48VAOAL4HHHWR%2F20241026%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241026T023956Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=41a070a27c27c5c2f0f81eaa6e8623222fc2ab53a0b09eb6d43fe7a1912b92ec
+https://play-eventide.com/eventide.zip
